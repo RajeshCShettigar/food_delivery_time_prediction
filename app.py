@@ -2,11 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import xgboost as xgb
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
-import plotly.graph_objects as go
+
 
 # load the saved models
 with open('xgbr_model.pkl', 'rb') as f:
